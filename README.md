@@ -49,6 +49,6 @@ setwd("CricketMatchPredictor")
 
 ### Option 2: Run directly from GitHub
 ```r
-shiny::runGitHub("CricketMatchPredictor", "YourUsername")
+shiny::runGitHub("CricketMatchPredictor", "SanduniDewmini")
 ```
 
