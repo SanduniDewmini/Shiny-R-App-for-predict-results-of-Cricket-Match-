@@ -13,6 +13,8 @@ The app allows users to input team statistics and match context, and it outputs 
 * Demonstrate how basic probability theories can be applied to cricket match predictions.
 * Provide a simple interactive tool for cricket enthusiasts and students to explore probability concepts in a practical context.
 
+---
+
 ## 🧩 Features
 
 - Calculate winning probability for a particular cricket team.
@@ -39,10 +41,14 @@ The app allows users to input team statistics and match context, and it outputs 
 ### Option 1: Clone the repo and run
 ```r
 # Clone the repo
-git clone https://github.com/YourUsername/CricketMatchPredictor.git
+git clone https://github.com/SanduniDewmini/CricketMatchPredictor.git
 
 # Set working directory
 setwd("CricketMatchPredictor")
 ```
-# Run the Shiny app
-shiny::runApp()
+
+### Option 2: Run directly from GitHub
+```r
+shiny::runGitHub("CricketMatchPredictor", "YourUsername")
+```
+
